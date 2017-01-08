@@ -1,0 +1,47 @@
+{
+    "APIError": {
+        "1200":"--- All Exception from zeptrion-api/index.js ---",
+        "1202": {
+            "code": "User Input Error",
+            "description": "You called the Air function witout an inputs parameter. inputs must be defined",
+            "file":"zeptrion-api/index.js",
+            "syscall": "end_user"
+        },
+        "1201": {
+            "code": "User Input Error",
+            "description": "The hostname has to be set in the inputs --> {host_ip:''}",
+            "file":"zeptrion-api/index.js",
+            "syscall": "end_user"
+        },
+        "1221": {
+            "code": "404 ERROR",
+            "file":"zeptrion-api/index.js",
+            "search_string": "404"
+        },
+        "1222": {
+            "file":"zeptrion-api/index.js",
+            "search_string": "timeout"
+        },
+        "1223": {
+            "file":"zeptrion-api/index.js",
+            "search_string": "ECONNREFUSED"
+        },
+        "1224": {
+            "code": "xml2js_PARSER_ERROR",
+            "file":"zeptrion-api/index.js",
+            "search_string": "Non-whitespace"
+        },
+        "1400":"--- All Exception from zeptrion-api/air_creater.js ---",
+        "1401": {
+            "code": "User Input Error",
+            "description": "The hostname has to be set in the inputs --> {host_ip:'',timeout:'',port:''}",
+            "syscall": "end_user",
+            "file":"zeptrion-api/air_creater.js"
+        },
+        "9999": {
+            "file":"unknown",
+            "search_string": "unknown",
+            "code": "Unknown Error"
+        }
+    }
+}
