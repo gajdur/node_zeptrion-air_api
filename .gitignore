@@ -2,6 +2,7 @@
 *.tgz
 /node_modules
 /doc
+/api
 
 # Scratch Files
 scratch.js

@@ -3,7 +3,6 @@
 var expect = require("chai").expect,
     zeptrion = require("../"),
     testValues = require("./support/testValues.js"),
-    errors = require("../zeptrion-api/errors");
 
 
 describe.skip("--- Air creation tests if zeptrion air is not on ---", function() {

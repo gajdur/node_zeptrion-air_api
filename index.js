@@ -4,13 +4,13 @@
 // This wrapper is to provide some continuity in the modifications of the APIs over time
 //
 
-var searchAirs = require("./zeptrion-api/air_search");
-var Zeptrion = require("./zeptrion-api");
+var searchAirs = require("./src/air_search");
+var Zeptrion = require("./src");
 //var lightState = require("./zeptrion-api/lightstate");
 //var scheduledEvent = require("./zeptrion-api/scheduledEvent");
 //var scene = require("./zeptrion-api/scene");
 //var timer = require("./zeptrion-api/timer");
-var ApiError = require("./zeptrion-api/errors").ApiError;
+var ApiError = require("./src/errors").ApiError;
 
 
 module.exports = {
